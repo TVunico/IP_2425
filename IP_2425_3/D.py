@@ -1,7 +1,7 @@
 import sys
 
 
-def sum_squares(n):
+def sum_squares_i(n):
     result = 0
     for i in range(1, n):   
         result = result + i * i
@@ -16,7 +16,7 @@ def main():
         if line:
             n = line[0]
             try:
-                z = sum_squares(int(n))
+                z = sum_squares_i(int(n))
             except:
                 sys.exit(0)
                 
