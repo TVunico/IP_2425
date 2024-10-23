@@ -1,0 +1,37 @@
+De cada vez que vejo um jogo de basquetebol da NBA, perco-me com a altura dos jogadores.
+Nas estati?sticas do jogo, as alturas dos jogadores ve?m no sistema americano,
+expressas em pe?s e polegadas. Por exemplo, o LeBron James, agora de novo dos
+Cleveland Cavaliers, antes dos Miami Heat, tem 6 pe?s e 8 polegadas; o Hasheem
+Thabeet, dos Detroit Pistons, tem 7 pe?s e 3 polegadas. Eu sei que uma polegada
+sa?o 2.54 cm e que um pe? tem 12 polegadas, mas faz-me falta um programa que me
+ajude a converter rapidamente as alturas do jogadores para metros e centi?metros,
+ja? que na?o consigo fazer as contas de cabec?a.
+
+Escreva uma func?a?o nbanba , com dois argumentos inteiros, exprimindo a altura
+de uma pessoa em pe?s e polegadas, cujo resultado seja um nu?mero float representando
+o valor equivalente expresso em metros, arredondado aos centi?metros.
+
+Escreva tambe?m uma func?a?o de teste iterativa. Em cada passo, a func?a?o de teste
+aceitara? dois nu?meros inteiros, o primeiro indicando o nu?mero de pe?s e o segundo
+o nu?mero de polegadas correspondentes a? altura de um basquetebolista, chamara? a
+func?a?o nba para fazer os ca?lculos e escrevera? o valor da altura expresso em metros,
+arredondado aos centi?metros.
+
+Requisito te?cnico: ao escrever a altura em metros, a func?a?o de teste deve usar
+o especificador de formato %f . Por exemplo, se o nu?mero calculado for 1.97, o seu programa deve escrever 1.970000. Note que 1.97 tera? resultado do arredondamento do valor exato.
+
+Por exemplo, dada a seguinte série de valores:
+
+6 3
+5 9
+5 11
+7 6
+6 0
+deve ser obtido o seguinte resultado:
+
+1.900000
+1.750000
+1.800000
+2.290000
+1.830000
+Escreva um programa completo, incluindo uma func?a?o de teste e a func?a?o main, e submeta-o ao Mooshak no problema B do concurso IP_2425_P4.
