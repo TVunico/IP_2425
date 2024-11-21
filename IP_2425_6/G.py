@@ -1,6 +1,6 @@
 import sys
 
-1
+
 def floats_find_triple(a):
     for i in range(0, len(a) - 2):
         if (a[i] == a[i + 1] == a[i + 2]):
