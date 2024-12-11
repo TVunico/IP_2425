@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
 
 
-"""def gasolina_baixou(a):
+def gasolina_baixou(a):
     maior = a[0]
     c = 0
     for i in range(1, len(a)):
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         elif c == 0:
             c = i
         
-    return len(a)-i"""
+    return len(a)-i
     
         
 

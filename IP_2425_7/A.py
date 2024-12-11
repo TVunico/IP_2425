@@ -28,11 +28,26 @@ def floats_println_bracket(a):
 
 
 def gasolina_baixou(a):
-    d = 0
+    k = 0
+    void = 0
     for i in range(1 , len(a)):
+        #if a[-i] <= a[-i -1]:
+          #  d += 1
+        list = []
+        if a[-i] >= a[-i -1]:
+            void += 1
+            void.append(list)
+        #if void  == len(a):
+            #print("void")
+           # break
         if a[-i] < a[-i -1]:
-            d += 1
-    return d
+            k = i -1
+            k.append(list)
+        if a[-i] > a[-i-1]:
+           # print (k)
+            break
+        
+    return list
 
 
 
@@ -49,7 +64,7 @@ def main():
     try:
         a = floats_get()
         for num in a:
-            if num <= 0:
+            if num < 0:
                 sys.exit(0)
     except:
         sys.exit(0)
